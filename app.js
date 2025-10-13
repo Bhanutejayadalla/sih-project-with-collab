@@ -6,8 +6,8 @@ console.log("Supabase available?", window.supabase);
 class CivicReportSupabaseDB {
     constructor() {
         // Add your Supabase credentials here
-        const SUPABASE_URL = 'https://mhyczmxixtvnqzznxucu.supabase.co';
-        const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1oeWN6bXhpeHR2bnF6em54dWN1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTkzNDE4NDcsImV4cCI6MjA3NDkxNzg0N30.dkP_ALejx_JkwhdqMkBxcFKT99K8_6-LyjWv35LJh4Y';
+        const SUPABASE_URL = 'https://anyndqpkembxtuerezbd.supabase.co';
+        const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFueW5kcXBrZW1ieHR1ZXJlemJkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjAzMDQ4MTUsImV4cCI6MjA3NTg4MDgxNX0.f0PlXfFpl9i0aUIOqrIg4CubWcahIdy47imv410CfWo';
 
         this.supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
     }
