@@ -230,7 +230,8 @@ this.schemesData = [
         // WARNING: Storing API keys client-side is insecure. 
         // This is for demonstration only. In a production environment,
         // this key should be handled by a secure backend server.
-        this.GEMINI_API_KEY = 'AIzaSyDIWfV0TpSaEyoOud4viDVpMtaiQ2vRrV8'; 
+        //add ur gemini api key
+        this.GEMINI_API_KEY = 'example'; 
     }
 
     async init() {
